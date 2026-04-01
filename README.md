@@ -2,7 +2,8 @@
 
 > **AI-powered OCR system for automatic validation of English proficiency test results.**
 > This project streamlines the graduation qualification process by converting score report images (TOEIC, KMITL-TEP, IELTS) into structured, verifiable data using Optical Character Recognition (OCR) and rule-based verification.
-
+Presentation Project1: [https://canva.link/2kb5cqji5elbsfc](https://canva.link/2kb5cqji5elbsfc)
+Presentation Project1: [https://canva.link/qj231zk1nqbb44d](https://canva.link/qj231zk1nqbb44d)
 ---
 
 ## 🧠 Overview

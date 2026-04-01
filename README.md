@@ -1,5 +1,6 @@
-Presentation Project1: [https://canva.link/2kb5cqji5elbsfc](https://canva.link/2kb5cqji5elbsfc)
-Presentation Project2: [https://canva.link/qj231zk1nqbb44d](https://canva.link/qj231zk1nqbb44d)
+Presentation Project1: [https://canva.link/qj231zk1nqbb44d](https://canva.link/qj231zk1nqbb44d)
+Presentation Project2: [https://canva.link/2kb5cqji5elbsfc](https://canva.link/2kb5cqji5elbsfc)
+
 
 # 🎓 Automated Verification of English Proficiency Test Scores Using OCR for Graduation Qualification
 

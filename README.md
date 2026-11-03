@@ -1,8 +1,42 @@
+<div align="center">
+
+# OCR English Proficiency Verification
+
+**Automatic checking of TOEIC, KMITL-TEP and IELTS score reports for graduation qualification.**
+
+![Best field accuracy 99.77%](https://img.shields.io/badge/Best_field_accuracy-99.77%-2ea44f?style=for-the-badge) ![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white) ![OCR Tesseract · EasyOCR · TrOCR](https://img.shields.io/badge/OCR-Tesseract_·_EasyOCR_·_TrOCR-7C3AED?style=for-the-badge) ![Paper published](https://img.shields.io/badge/Paper-published-F59E0B?style=for-the-badge)
+
+</div>
+
+> Senior project at KMITL. Accuracy figures come from the benchmark table below on the project's own evaluation set.
+
+## Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,fastapi,flask,mysql,sqlite,vue&perline=10" alt="Tech stack" />
+</p>
+
+## Pipeline
+
+```mermaid
+flowchart LR
+    U(["Staff upload"]) --> D["Web dashboard\nFastAPI"]
+    D --> PRE["Pre-processing\nnoise, skew, contrast"]
+    PRE --> CLS["Document classification\ntest type"]
+    CLS --> OCR["OCR engines\nTesseract / EasyOCR / TrOCR"]
+    OCR --> PAR["Data parsing"]
+    PAR --> RULE{"Rule-based verification\ngraduation criteria"}
+    RULE --> J["Structured JSON"]
+    J --> DB[("MySQL / SQLite")]
+    J --> D
+```
+
+---
+
 Presentation Project1: [https://canva.link/qj231zk1nqbb44d](https://canva.link/qj231zk1nqbb44d)
 Presentation Project2: [https://canva.link/2kb5cqji5elbsfc](https://canva.link/2kb5cqji5elbsfc)
 
 
-# 🎓 Automated Verification of English Proficiency Test Scores Using OCR for Graduation Qualification
 
 > **AI-powered OCR system for automatic validation of English proficiency test results.**
 > This project streamlines the graduation qualification process by converting score report images (TOEIC, KMITL-TEP, IELTS) into structured, verifiable data using Optical Character Recognition (OCR) and rule-based verification.
@@ -138,4 +172,3 @@ Data Science & Business Analytics – KMITL
 🌐 [GitHub](https://github.com/Dxrksvng) | [LinkedIn](https://www.linkedin.com/in/nattakamon-jaimetha)
 
 ---
-
